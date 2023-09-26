@@ -1,8 +1,8 @@
 public class Ejercicio1
 {
     public static void main(final String[] args) {
-        final int numero = 3;
-        int contador = numero;
+        final int NUMERO = 3;
+        int contador = NUMERO;
         contador *= 21;
         System.out.println(contador);
         //Se utiliza el operador de multiplicacion acumulativa para no usar la asignacion contador = contador * 21

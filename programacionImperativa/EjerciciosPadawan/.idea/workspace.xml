@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f836c2c-b1f7-41cf-aaa3-a55ffcbc8351" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../EjerciciosIniciado/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosIniciado/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosIniciado/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosIniciado/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosIniciado/EjerciciosIniciado.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosIniciado/ejerciciosiniciado.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/EjerciciosPadawan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ejerciciospadawan.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,19 +39,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "programacionImperativa",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/zeta8/Documents/javaV2/InfoJava/programacionImperativa/EjerciciosPadawan"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;programacionImperativa&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/zeta8/Documents/javaV2/InfoJava/programacionImperativa/EjerciciosPadawan&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Ejercicio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ejercicio1" />
-      <module name="EjerciciosPadawan" />
+      <module name="ejerciciospadawan" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
