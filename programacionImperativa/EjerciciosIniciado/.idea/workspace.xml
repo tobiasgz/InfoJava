@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37a0d1cf-4202-4ff5-94b9-e6a1df3806c8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EjerciciosIniciado.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ejerciciosiniciado.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EjerciciosPadawan/.idea/EjerciciosPadawan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosPadawan/.idea/ejerciciospadawan.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EjerciciosPadawan/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosPadawan/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EjerciciosPadawan/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosPadawan/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EjerciciosPadawan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosPadawan/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EjerciciosPadawan/out/production/EjerciciosPadawan/Ejercicio1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosPadawan/out/production/EjerciciosPadawan/Ejercicio1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EjerciciosPadawan/out/production/EjerciciosPadawan/Ejercicio5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosPadawan/out/production/EjerciciosPadawan/Ejercicio5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EjerciciosPadawan/src/Ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosPadawan/src/Ejercicio1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EjerciciosPadawan/src/Ejercicio5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosPadawan/src/Ejercicio5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +25,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;programacionImperativa&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

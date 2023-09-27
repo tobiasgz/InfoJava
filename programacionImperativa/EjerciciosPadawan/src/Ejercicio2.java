@@ -2,7 +2,26 @@ public class Ejercicio2 {
     public static void main(String[] args) {
         int numero = 50;
         int descontador = numero;
-        descontador *= -19;
+        descontador--;
+        descontador--;
+        descontador--;
+        descontador--;
+        descontador--;
+        descontador--;
+        descontador--;
+        descontador--;
+        descontador--;
+        descontador--;
+        descontador--;
+        descontador--;
+        descontador--;
+        descontador--;
+        descontador--;
+        descontador--;
+        descontador--;
+        descontador--;
+        descontador--;
+        descontador--;
         System.out.println(descontador);
 
         //se utiliza el operador de multiplicacion acumulativa para no usar la asignacion
