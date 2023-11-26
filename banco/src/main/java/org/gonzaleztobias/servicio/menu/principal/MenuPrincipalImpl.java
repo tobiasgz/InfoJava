@@ -42,6 +42,7 @@ public class MenuPrincipalImpl implements MenuPrincipal{
             System.out.println("4. Ver cuentas de cliente por ID");
             System.out.println("5. Depositar");
             System.out.println("6. Transferir");
+            System.out.println("7. Generar intereses en todas las cuentas");
             System.out.println("0. Cerrar sistema");
 
             System.out.println("Ingrese una opcion");
