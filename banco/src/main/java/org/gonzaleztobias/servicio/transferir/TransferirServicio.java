@@ -1,6 +1,6 @@
 package org.gonzaleztobias.servicio.transferir;
 
-public interface Transferir {
+public interface TransferirServicio {
 
     void transferir();
 

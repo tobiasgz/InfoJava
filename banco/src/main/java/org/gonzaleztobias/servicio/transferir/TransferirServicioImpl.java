@@ -1,6 +1,6 @@
 package org.gonzaleztobias.servicio.transferir;
 
-public class TransferirImpl implements Transferir {
+public class TransferirServicioImpl implements TransferirServicio {
 
 
     @Override

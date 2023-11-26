@@ -8,7 +8,7 @@ public class CajaDeAhorro {
 
     protected Double saldo = 0D;
 
-    protected Double interes;
+    protected final Double interes = 1.1D;
 
     protected Integer tipo;
 
@@ -32,16 +32,21 @@ public class CajaDeAhorro {
         return saldo;
     }
 
+    public Double getSaldoParaTransferir(){
+        return this.saldo;
+    }
+
     public void setSaldo(Double saldo) {
-        this.saldo += saldo;
+        if (saldo > 0){
+            this.saldo += saldo;
+        } else {
+            this.ayudaSaldo(saldo);
+        }
+
     }
 
-    public Double getInteres() {
-        return interes;
-    }
-
-    public void setInteres(Double interes) {
-        this.interes = interes;
+    public void generarInteres() {
+        this.saldo = saldo * interes;
     }
 
     public Integer getTipo() {
@@ -52,5 +57,13 @@ public class CajaDeAhorro {
         this.id = id;
         this.titular = titular;
         this.tipo = 1;
+    }
+
+    private void ayudaSaldo(Double saldo){
+        if (this.saldo < (-1)*saldo){
+
+        } else {
+            this.saldo += saldo;
+        }
     }
 }
