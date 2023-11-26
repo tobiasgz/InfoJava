@@ -35,6 +35,7 @@ public class MenuCuentaImpl implements MenuCuenta{
                 if (clienteOptimal.isPresent()){
                     CajaDeAhorro caja = new CajaDeAhorro(clienteOptimal.get(), clienteOptimal.get().cantidadCuentas()+1);
                     clienteOptimal.get().setCuentas(caja);
+                    caja.setTitular(clienteOptimal.get());
                     System.out.println("Creacion de Caja de Ahorro Exitosa");
                 }
                 break;
@@ -42,6 +43,7 @@ public class MenuCuentaImpl implements MenuCuenta{
                 if (clienteOptimal.isPresent()){
                     CuentaCorriente cuenta = new CuentaCorriente(clienteOptimal.get(), clienteOptimal.get().cantidadCuentas()+1);
                     clienteOptimal.get().setCuentas(cuenta);
+                    cuenta.setTitular(clienteOptimal.get());
                     System.out.println("Creacion de Cuenta Corriente Exitosa");
                 }
                 break;

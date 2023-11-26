@@ -1,7 +1,7 @@
 package org.gonzaleztobias.dominio;
 
 public class CuentaCorriente extends CajaDeAhorro{
-    private final Double descubierto = 50000D;
+    private final Double descubierto = 50001D;
 
     public Double getDescubierto() {
         return descubierto;

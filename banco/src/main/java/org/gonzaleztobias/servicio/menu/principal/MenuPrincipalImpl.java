@@ -56,12 +56,12 @@ public class MenuPrincipalImpl implements MenuPrincipal{
                     menuCuenta.crearCuenta();
                     break;
                 case 3:
-                    System.out.println(App.banco.getClientes());
                     for (Cliente cliente:App.banco.getClientes()) {
                         System.out.println(cliente.getNombre());
                         System.out.println(cliente.getDireccion());
                         System.out.println(cliente.getId());
-                        System.out.println(cliente.getCuentas());
+                        System.out.println("tiene " + cliente.cantidadCuentas() + " cuentas");
+                        System.out.println();
 
                     }
                     break;
