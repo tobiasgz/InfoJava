@@ -3,12 +3,9 @@ package org.gonzaleztobias.servicio.menu.cliente;
 import org.gonzaleztobias.App;
 import org.gonzaleztobias.dominio.Cliente;
 import org.gonzaleztobias.entrada.InputConsoleService;
-import org.gonzaleztobias.servicio.cliente.ClienteServicio;
 
-import java.util.Optional;
 
 public class MenuClienteImpl implements MenuCliente{
-
 
     @Override
     public void crearCliente() {
@@ -24,6 +21,5 @@ public class MenuClienteImpl implements MenuCliente{
 
         System.out.println("Cliente creado con exito" + " Su numero de id es: " + cliente.getId());
     }
-
 
 }

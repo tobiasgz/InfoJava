@@ -3,6 +3,7 @@ package org.gonzaleztobias.servicio.menu.principal;
 import org.gonzaleztobias.App;
 import org.gonzaleztobias.dominio.Cliente;
 import org.gonzaleztobias.entrada.InputConsoleService;
+import org.gonzaleztobias.servicio.archivo.ArchivoServicio;
 import org.gonzaleztobias.servicio.menu.cliente.MenuCliente;
 import org.gonzaleztobias.servicio.menu.cuenta.MenuCuenta;
 import org.gonzaleztobias.servicio.menu.depositar.MenuDepositar;
@@ -21,12 +22,15 @@ public class MenuPrincipalImpl implements MenuPrincipal{
 
     private MenuIntereses menuIntereses;
 
-    public MenuPrincipalImpl(MenuCliente menuCliente, MenuCuenta menuCuenta, MenuDepositar menuDepositar, MenuTransferir menuTransferir, MenuIntereses menuIntereses){
+    private ArchivoServicio archivoServicio;
+
+    public MenuPrincipalImpl(MenuCliente menuCliente, MenuCuenta menuCuenta, MenuDepositar menuDepositar, MenuTransferir menuTransferir, MenuIntereses menuIntereses, ArchivoServicio archivoServicio){
         this.menuCliente = menuCliente;
         this.menuCuenta = menuCuenta;
         this.menuDepositar = menuDepositar;
         this.menuTransferir = menuTransferir;
         this.menuIntereses = menuIntereses;
+        this.archivoServicio = archivoServicio;
     }
 
 
@@ -43,6 +47,7 @@ public class MenuPrincipalImpl implements MenuPrincipal{
             System.out.println("5. Depositar");
             System.out.println("6. Transferir");
             System.out.println("7. Generar intereses en todas las cuentas");
+            System.out.println("8. Exportar archivo a CSV");
             System.out.println("0. Cerrar sistema");
 
             System.out.println("Ingrese una opcion");
@@ -80,18 +85,18 @@ public class MenuPrincipalImpl implements MenuPrincipal{
                     menuIntereses.generarIntereses();
                     break;
 
+                case 8:
+                    System.out.println("Exportando cuentas");
+                    archivoServicio.exportarCuentasACsv(App.banco.getClientes(), "clientes.csv");
+                    break;
+
                 case 0:
                     System.out.println("Sistema cerrado");
                     break;
 
             }
 
-
-
-
-
         }while (opc != 0);
-
 
     }
 }

@@ -1,12 +1,7 @@
 package org.gonzaleztobias.dominio;
 
 public class CuentaCorriente extends CajaDeAhorro{
-    private final Double descubierto = 50001D;
-
-    public Double getDescubierto() {
-        return descubierto;
-    }
-
+    private final Double descubierto = 50001D; //Segun el valor que se quiera tener como limite hacerle un +1
 
     @Override
     public void setSaldo(Double saldo){
@@ -25,8 +20,6 @@ public class CuentaCorriente extends CajaDeAhorro{
         return saldoADevolver;
 
     }
-
-
 
     private void ayudaSaldo(Double saldo){
         Double saldoTemporal = this.saldo + descubierto;

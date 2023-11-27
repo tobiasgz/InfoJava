@@ -2,6 +2,8 @@ package org.gonzaleztobias;
 
 import org.gonzaleztobias.dominio.Banco;
 import org.gonzaleztobias.entrada.InputConsoleService;
+import org.gonzaleztobias.servicio.archivo.ArchivoServicio;
+import org.gonzaleztobias.servicio.archivo.ArchivoServicioImpl;
 import org.gonzaleztobias.servicio.cliente.ClienteServicio;
 import org.gonzaleztobias.servicio.cliente.ClienteServicioImpl;
 import org.gonzaleztobias.servicio.cuenta.CuentaServicioImpl;
@@ -28,8 +30,9 @@ public class App {
         MenuDepositar menuDepositar = new MenuDepositarImpl(new ClienteServicioImpl(), new CuentaServicioImpl(new ClienteServicioImpl()));
         MenuTransferir menuTransferir = new MenuTransferirImpl(new CuentaServicioImpl(new ClienteServicioImpl()), new ClienteServicioImpl());
         MenuIntereses menuIntereses = new MenuInteresesImpl();
+        ArchivoServicio archivoServicio = new ArchivoServicioImpl();
 
-        MenuPrincipal menuPrincipal = new MenuPrincipalImpl(menuCliente, menuCuenta, menuDepositar, menuTransferir, menuIntereses);
+        MenuPrincipal menuPrincipal = new MenuPrincipalImpl(menuCliente, menuCuenta, menuDepositar, menuTransferir, menuIntereses, archivoServicio);
         menuPrincipal.iniciar();
 
 

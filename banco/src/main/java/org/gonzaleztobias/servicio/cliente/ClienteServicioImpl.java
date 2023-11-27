@@ -2,7 +2,6 @@ package org.gonzaleztobias.servicio.cliente;
 
 import org.gonzaleztobias.App;
 import org.gonzaleztobias.dominio.Cliente;
-
 import java.util.Optional;
 
 public class ClienteServicioImpl implements ClienteServicio {

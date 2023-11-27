@@ -20,10 +20,6 @@ public class CajaDeAhorro {
         this.id = id;
     }
 
-    public Cliente getTitular() {
-        return titular;
-    }
-
     public void setTitular(Cliente titular) {
         this.titular = titular;
     }
@@ -45,10 +41,6 @@ public class CajaDeAhorro {
 
     }
 
-    public void generarInteres() {
-        this.saldo = saldo * interes;
-    }
-
     public Integer getTipo() {
         return tipo;
     }
@@ -65,5 +57,9 @@ public class CajaDeAhorro {
         } else {
             this.saldo += saldo;
         }
+    }
+
+    public void generarInteres() {
+        this.saldo = saldo * interes;
     }
 }

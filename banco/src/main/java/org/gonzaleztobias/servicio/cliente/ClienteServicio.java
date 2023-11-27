@@ -9,4 +9,5 @@ public interface ClienteServicio {
     Optional<Cliente> getClienteById(Long id);
 
     Optional<Cliente> seleccionarCliente(Long id);
+
 }
